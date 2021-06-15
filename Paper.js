@@ -22,7 +22,7 @@ class Paper {
       ellipse(0, 0, this.radius, this.radius);
       pop();
       imageMode(CENTER);
-			image(this.image,pos.x,pos.y);
+			image(this.image,pos.x,pos.y, 75, 75);
     }
   };
   
